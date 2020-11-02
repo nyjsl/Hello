@@ -6,18 +6,24 @@
 CPP_SRCS += \
 ../src/Hello.cpp \
 ../src/cordia.cpp \
+../src/namespaces.cpp \
+../src/namesps.cpp \
 ../src/newplace.cpp \
 ../src/support.cpp 
 
 OBJS += \
 ./src/Hello.o \
 ./src/cordia.o \
+./src/namespaces.o \
+./src/namesps.o \
 ./src/newplace.o \
 ./src/support.o 
 
 CPP_DEPS += \
 ./src/Hello.d \
 ./src/cordia.d \
+./src/namespaces.d \
+./src/namesps.d \
 ./src/newplace.d \
 ./src/support.d 
 

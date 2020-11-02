@@ -6,9 +6,9 @@
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
-#include <iostream>
-using namespace std;
-#include "cordia.h"
+//#include <iostream>
+//using namespace std;
+//#include "cordia.h"
 
 //5种变量存储方式
 /**
@@ -21,9 +21,9 @@ using namespace std;
  */
 
 // 在多文件程序中,可以在一个文件(且只能在一个)中定义一个外部变量.使用该变量的其他文件必须使用关键字extern来声明它
-double warming = 0.3; // warming defined
-void update(double dt);
-void local();
+//double warming = 0.3; // warming defined
+//void update(double dt);
+//void local();
 //int main() {
 //	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
 //
