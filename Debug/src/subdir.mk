@@ -9,7 +9,9 @@ CPP_SRCS += \
 ../src/namespaces.cpp \
 ../src/namesps.cpp \
 ../src/newplace.cpp \
-../src/support.cpp 
+../src/stock00.cpp \
+../src/support.cpp \
+../src/usestock.cpp 
 
 OBJS += \
 ./src/Hello.o \
@@ -17,7 +19,9 @@ OBJS += \
 ./src/namespaces.o \
 ./src/namesps.o \
 ./src/newplace.o \
-./src/support.o 
+./src/stock00.o \
+./src/support.o \
+./src/usestock.o 
 
 CPP_DEPS += \
 ./src/Hello.d \
@@ -25,7 +29,9 @@ CPP_DEPS += \
 ./src/namespaces.d \
 ./src/namesps.d \
 ./src/newplace.d \
-./src/support.d 
+./src/stock00.d \
+./src/support.d \
+./src/usestock.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
