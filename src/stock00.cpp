@@ -68,12 +68,20 @@ void Stock::update(double price){
 	share_val = price;
 	set_tot();
 }
-void Stock::show(){
+void Stock::show() const{
 	std::cout << "Company: "<< company
 			<< "Shares :" << shares << "\n"
 			<<" Share price: $ "<< share_val
 			<< " Total Worth: $"<< total_val << "\n";
 
+}
+// this 指针, 指向调用对象
+const Stock & Stock:: topval(const Stock & s) const{
+	if(s.total_val>this->total_val){
+		return s;     // arguments object
+	}else{
+		return *this; // invoking object
+	}
 }
 
 
