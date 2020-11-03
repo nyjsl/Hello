@@ -13,7 +13,8 @@ CPP_SRCS += \
 ../src/stack.cpp \
 ../src/stock00.cpp \
 ../src/support.cpp \
-../src/usestock.cpp 
+../src/usestock.cpp \
+../src/vector.cpp 
 
 OBJS += \
 ./src/Hello.o \
@@ -25,7 +26,8 @@ OBJS += \
 ./src/stack.o \
 ./src/stock00.o \
 ./src/support.o \
-./src/usestock.o 
+./src/usestock.o \
+./src/vector.o 
 
 CPP_DEPS += \
 ./src/Hello.d \
@@ -37,7 +39,8 @@ CPP_DEPS += \
 ./src/stack.d \
 ./src/stock00.d \
 ./src/support.d \
-./src/usestock.d 
+./src/usestock.d \
+./src/vector.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

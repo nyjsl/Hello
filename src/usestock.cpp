@@ -9,6 +9,7 @@
 #include "stock00.h"
 #include "stack.h"
 #include "mytime0.h"
+#include "vector.h"
 int main(){
 
 //	Stock fulffy_the_cat;

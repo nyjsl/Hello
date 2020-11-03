@@ -48,7 +48,14 @@ Time Time::operator+(const Time & t) const{
 //	return sum;
 	return Sum(t);
 }
-
+// 友元函数定义
+Time operator*(double m,const Time & t){
+	Time result;
+	long tota_minutes = t.hours * m*60 + t.minutes*m;
+	result.hours = tota_minutes/60;
+	result.minutes = tota_minutes %60;
+	return result;
+}
 void Time::Show() const{
 	std::cout << hours << " hours , " << minutes << " minutes";
 }
