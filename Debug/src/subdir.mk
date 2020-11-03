@@ -6,9 +6,11 @@
 CPP_SRCS += \
 ../src/Hello.cpp \
 ../src/cordia.cpp \
+../src/mytime0.cpp \
 ../src/namespaces.cpp \
 ../src/namesps.cpp \
 ../src/newplace.cpp \
+../src/stack.cpp \
 ../src/stock00.cpp \
 ../src/support.cpp \
 ../src/usestock.cpp 
@@ -16,9 +18,11 @@ CPP_SRCS += \
 OBJS += \
 ./src/Hello.o \
 ./src/cordia.o \
+./src/mytime0.o \
 ./src/namespaces.o \
 ./src/namesps.o \
 ./src/newplace.o \
+./src/stack.o \
 ./src/stock00.o \
 ./src/support.o \
 ./src/usestock.o 
@@ -26,9 +30,11 @@ OBJS += \
 CPP_DEPS += \
 ./src/Hello.d \
 ./src/cordia.d \
+./src/mytime0.d \
 ./src/namespaces.d \
 ./src/namesps.d \
 ./src/newplace.d \
+./src/stack.d \
 ./src/stock00.d \
 ./src/support.d \
 ./src/usestock.d 

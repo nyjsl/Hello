@@ -7,6 +7,8 @@
 
 #include <iostream>
 #include "stock00.h"
+#include "stack.h"
+#include "mytime0.h"
 int main(){
 
 //	Stock fulffy_the_cat;
@@ -38,25 +40,47 @@ int main(){
 
 
     // create an array of initialized objects
-    const int STKS = 4;
-    Stock stocks[STKS] = {
-    		Stock("NanoSmart",12,20.0),
-    		Stock("Boffo Objects",200,2.0),
-    		Stock("Monolithis Obelisks",130,3.25),
-    		Stock("Fleep Enterprises",60,6.5),
-    };
-    cout << "Stok holdings:\n";
-    int st;
-    for(st =0;st<STKS;st++){
-    	stocks[st].show();
-    }
-    const Stock * top = &stocks[0];
-    for(st =1;st<STKS;st++){
-    	top = &top->topval(stocks[st]);
-    }
-    cout << "\n Most valuable holding:\n";
-    top->show();
-    cout << "Done\n";
+//    const int STKS = 4;
+//    Stock stocks[STKS] = {
+//    		Stock("NanoSmart",12,20.0),
+//    		Stock("Boffo Objects",200,2.0),
+//    		Stock("Monolithis Obelisks",130,3.25),
+//    		Stock("Fleep Enterprises",60,6.5),
+//    };
+//    cout << "Stok holdings:\n";
+//    int st;
+//    for(st =0;st<STKS;st++){
+//    	stocks[st].show();
+//    }
+//    const Stock * top = &stocks[0];
+//    for(st =1;st<STKS;st++){
+//    	top = &top->topval(stocks[st]);
+//    }
+//    cout << "\n Most valuable holding:\n";
+//    top->show();
+
+    Time planning;
+    Time coding(2,40);
+    Time fixing(5,55);
+    Time total;
+
+    cout << " planning time = ";
+    planning.Show();
+    cout << std::endl;
+    cout << " coding time = ";
+    coding.Show();
+    cout << std::endl;
+    cout << " fixing time = ";
+    fixing.Show();
+    cout << std::endl;
+//    total = coding.Sum(fixing);
+    total = coding + fixing;
+    cout << " total time = ";
+    total.Show();
+    cout << std::endl;
+    cout << " Done\n";
+
+
 	return 0;
 }
 
