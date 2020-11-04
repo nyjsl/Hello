@@ -10,6 +10,7 @@ CPP_SRCS += \
 ../src/namespaces.cpp \
 ../src/namesps.cpp \
 ../src/newplace.cpp \
+../src/rankwalk.cpp \
 ../src/stack.cpp \
 ../src/stock00.cpp \
 ../src/support.cpp \
@@ -23,6 +24,7 @@ OBJS += \
 ./src/namespaces.o \
 ./src/namesps.o \
 ./src/newplace.o \
+./src/rankwalk.o \
 ./src/stack.o \
 ./src/stock00.o \
 ./src/support.o \
@@ -36,6 +38,7 @@ CPP_DEPS += \
 ./src/namespaces.d \
 ./src/namesps.d \
 ./src/newplace.d \
+./src/rankwalk.d \
 ./src/stack.d \
 ./src/stock00.d \
 ./src/support.d \

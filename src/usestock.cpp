@@ -5,12 +5,12 @@
  *      Author: xiaolian
  */
 
-#include <iostream>
-#include "stock00.h"
-#include "stack.h"
-#include "mytime0.h"
-#include "vector.h"
-int main(){
+//#include <iostream>
+//#include "stock00.h"
+//#include "stack.h"
+//#include "mytime0.h"
+//#include "vector.h"
+//int main(){
 
 //	Stock fulffy_the_cat;
 //	fulffy_the_cat.accquire("NanoSmart", 20, 12.50);
@@ -24,7 +24,7 @@ int main(){
 //	fulffy_the_cat.sell(300000,0.125);
 //	fulffy_the_cat.show();
 
-    using std::cout;
+//    using std::cout;
 //    cout << "Using constructors to create new objects\n";
 //    Stock stock1("NanoSmart",12,20.0); //syntax 1
 //    stock1.show();
@@ -60,28 +60,28 @@ int main(){
 //    cout << "\n Most valuable holding:\n";
 //    top->show();
 
-    Time planning;
-    Time coding(2,40);
-    Time fixing(5,55);
-    Time total;
+//    Time planning;
+//    Time coding(2,40);
+//    Time fixing(5,55);
+//    Time total;
 
-    cout << " planning time = ";
-    planning.Show();
-    cout << std::endl;
-    cout << " coding time = ";
-    coding.Show();
-    cout << std::endl;
-    cout << " fixing time = ";
-    fixing.Show();
-    cout << std::endl;
-//    total = coding.Sum(fixing);
-    total = coding + fixing;
-    cout << " total time = ";
-    total.Show();
-    cout << std::endl;
-    cout << " Done\n";
-
-
-	return 0;
-}
+//    cout << " planning time = ";
+//    planning.Show();
+//    cout << std::endl;
+//    cout << " coding time = ";
+//    coding.Show();
+//    cout << std::endl;
+//    cout << " fixing time = ";
+//    fixing.Show();
+//    cout << std::endl;
+////    total = coding.Sum(fixing);
+//    total = coding + fixing;
+//    cout << " total time = ";
+//    total.Show();
+//    cout << std::endl;
+//    cout << " Done\n";
+//
+//
+//	return 0;
+//}
 
